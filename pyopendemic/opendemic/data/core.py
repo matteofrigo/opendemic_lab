@@ -79,7 +79,7 @@ class AbstractRegionData(ABC):
         return self._code
 
     @property
-    def dates(self) -> list:
+    def dates(self) -> np.ndarray:
         """Dates at which the cases are reported."""
         return self._dates
 
